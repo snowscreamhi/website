@@ -1,3 +1,54 @@
+# POSTING INSTRUCTIONS
+
+Hello! To post a blog post or demo in this webpage, you need to follow a few specific instructions.
+- The post must be a markdown file formatted with the following title: year-month-day-title.md
+- The post must be placed in the _posts/ folder
+- In the top lines of the markdown file, specify the type of file (post) and the title
+- After this, the post will be accessible through the homepage of the website
+
+Note: prose.io provides a natural word-processing interfae for creating/editing markdown files.
+
+# Directory structure
+Copied from https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
+```
+website
+├─ CNAME # Contains your custom domain name (optional)
+├─ _config.yml # Jekyll's configuration flags
+├─ _includes # Snippets of code that can be used throughout your templates
+│  ├─ analytics.html
+│  └─ disqus.html
+├─ _layouts
+│  ├─ default.html # The main template. Includes <head>, <navigation>, <footer>, etc
+│  ├─ page.html # Static page layout
+│  └─ post.html # Blog post layout
+├─ _posts # All posts go in this directory!
+│  └─ 2014-3-3-Hello-World.md
+├─ _site # After Jekyll builds the website, it puts the static HTML output here. This is what's served!
+│  ├─ CNAME
+│  ├─ LICENSE
+│  ├─ about.html
+│  ├─ feed.xml
+│  ├─ index.html
+│  ├─ sitemap.xml
+│  └─ style.css
+├─ about.md # A static "About" page that I created.
+├─ feed.xml # Powers the RSS feed
+├─ images # All of my images are stored here.
+│  ├── first-post.jpg
+├─ index.html # Home page layout
+├─ scss # The Sass style sheets for my website
+│  ├─ _highlights.scss
+│  ├─ _reset.scss
+│  ├─ _variables.scss
+│  └─ style.scss
+└── sitemap.xml # Site map for the website
+```
+
+
+# Startup Tutorial Below
+
+
+
 > March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
 
 # Jekyll Now
